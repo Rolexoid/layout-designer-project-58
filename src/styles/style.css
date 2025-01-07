@@ -34,6 +34,7 @@ body {
 
 h1, h2, h3 {
   line-height: 1.2em;
+  font-weight: 400;
 }
 
 h1 {
@@ -57,8 +58,16 @@ h3 {
   padding: 100px 0;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .light-bg {
   background-color: var(--light);
+}
+
+.dark-bg {
+  background-color: var(--dark-main);
 }
 
 .relative-position {
@@ -67,6 +76,7 @@ h3 {
 
 .title {
   font-family: "Neucha Regular", cursive;
+  font-weight: 400;
   margin-bottom: 185px;
   margin-top: 0;
 }
@@ -113,3 +123,89 @@ h3 {
   height: 49px;
   border: none;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.title-about {
+  font-family: "Neucha Regular", cursive;
+  font-weight: 400;
+}
+
+.video-about {
+  margin: 0 0 -170px;
+}
+
+.video {
+  text-align: center;
+  margin: 0 auto;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  position: relative;
+  top: 200px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.flex-item {
+  background-color: var(--light);
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-background {
+  background: none;
+}
+
+.cards-title {
+  font-size: 52px;
+  margin: 0;
+  color: var(--white);
+  font-family: "Neucha Regular", cursive;
+}
+
+.card-item-count {
+  margin-top: 0;
+  font-size: 64px;
+  margin-bottom: 40px;
+  line-height: 1em;
+  color: var(--dark-main); 
+  font-family: "Neucha Regular", cursive;
+}
+
+.flex-item a {
+  text-decoration: none;
+}
+
+.card-about {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Neucha Regular", cursive;
+}
+
+.card-main {
+  color: #2A2626;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
